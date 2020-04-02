@@ -1,6 +1,6 @@
 const pg = require('pg')
 
-const connectionString = ''
+let connectionString = ''
 
 if (process.env.DATABASE_URL) {
   connectionString = process.env.DATABASE_URL
